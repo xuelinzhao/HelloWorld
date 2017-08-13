@@ -13,6 +13,7 @@
 		571727111F40029700A7B012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571727101F40029700A7B012 /* Assets.xcassets */; };
 		571727141F40029700A7B012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571727121F40029700A7B012 /* LaunchScreen.storyboard */; };
 		5717271C1F40054200A7B012 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717271B1F40054200A7B012 /* HelloViewController.swift */; };
+		574A23EC1F4008AD0058D9E8 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A23EB1F4008AD0058D9E8 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		571727131F40029700A7B012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		571727151F40029700A7B012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5717271B1F40054200A7B012 /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
+		574A23EB1F4008AD0058D9E8 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		571727081F40029700A7B012 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				574A23EB1F4008AD0058D9E8 /* TestViewController.swift */,
 				5717271B1F40054200A7B012 /* HelloViewController.swift */,
 				571727091F40029700A7B012 /* AppDelegate.swift */,
 				5717270B1F40029700A7B012 /* ViewController.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				5717271C1F40054200A7B012 /* HelloViewController.swift in Sources */,
 				5717270C1F40029700A7B012 /* ViewController.swift in Sources */,
+				574A23EC1F4008AD0058D9E8 /* TestViewController.swift in Sources */,
 				5717270A1F40029700A7B012 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
